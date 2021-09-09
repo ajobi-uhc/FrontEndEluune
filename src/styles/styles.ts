@@ -27,7 +27,8 @@ export const Styles = createGlobalStyle`
         padding:0;
         border: 0;
         outline: 0;
-        background: #fff;
+        background-color: black;
+        
         overflow-x: hidden;
     }
 
@@ -58,7 +59,7 @@ export const Styles = createGlobalStyle`
     h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        color: whitesmoke;
         font-size: 56px;
         line-height: 1.18;
 

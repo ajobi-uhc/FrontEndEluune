@@ -23,3 +23,11 @@ export const ContentWrapper = styled("div")`
     max-width: 100%;
   }
 `;
+
+export const iframe = styled("iframe")`
+  max-width:570px;
+
+  @media only screen and (max-width:768px){
+    max-width:100%
+  }
+`;

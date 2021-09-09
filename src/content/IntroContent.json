@@ -1,9 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "This is Project Eluune",
+  "text": "We are a blockchain gaming startup filled with industry experts",
   "button": [
     {
-      "title": "Explore"
+      "title": "Join our discord"
     },
     {
       "title": "Learn more",

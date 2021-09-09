@@ -2,11 +2,12 @@ import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
 import { Button } from "../../common/Button";
-import { MiddleBlockSection, Content, ContentWrapper } from "./styles";
+import { MiddleBlockSection, Content, ContentWrapper,iframe } from "./styles";
 
 interface MiddleBlockProps {
   title: string;
   content: string;
+  id:string;
   button: string;
   t: any;
 }
@@ -23,7 +24,7 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
       <Slide direction="up">
         <Row justify="center" align="middle">
           <ContentWrapper>
-            <Col lg={24} md={24} sm={24} xs={24}>
+            {/* <Col lg={24} md={24} sm={24} xs={24}>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {button && (
@@ -31,7 +32,11 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
                   {t(button)}
                 </Button>
               )}
-            </Col>
+            </Col> */}
+            <ContentWrapper>
+            <iframe width="480" height="315" src="https://www.youtube.com/embed/uQpmIm4I1dw" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+            </ContentWrapper>
+            
           </ContentWrapper>
         </Row>
       </Slide>

@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Update #1",
+  "text": "As you can see, we are still decoding it. All we know thus far is that the more people who look at it, the clearer the message becomes. We need more people like you to unveil this message and we ask you to join our mission.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "This is why we started Project Eluune.",
+      "content": "Join Us!",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "We call ourselves the Luune Legion",
+      "content": "Participate in the community",
       "icon": "notes.svg"
     }
   ]
